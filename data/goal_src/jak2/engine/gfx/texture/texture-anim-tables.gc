@@ -1,0 +1,23 @@
+;;-*-Lisp-*-
+(in-package goal)
+
+;; name: texture-anim-tables.gc
+;; name in dgo: texture-anim-tables
+;; dgos: ENGINE, GAME
+
+;; DECOMP BEGINS
+
+(define-extern *sky-texture-anim-array* texture-anim-array)
+(define-extern *darkjak-texture-anim-array* texture-anim-array)
+(define-extern *skull-gem-texture-anim-array* texture-anim-array)
+(define-extern *waterfall-texture-anim-array* texture-anim-array)
+(define-extern *waterfall-b-texture-anim-array* texture-anim-array)
+(define-extern *bomb-texture-anim-array* texture-anim-array)
+
+(defun set-fog-height! ((arg0 float))
+  (none)
+  )
+
+(defun set-cloud-minmax! ((a0-0 float) (a1-0 float))
+  (none)
+  )

@@ -1,0 +1,12 @@
+;;-*-Lisp-*-
+(in-package goal)
+
+;; name: hosehead-fake.gc
+;; name in dgo: hosehead-fake
+;; dgos: SEB, SWB
+
+(define-extern spawn-hosehead-fakes (function none))
+(define-extern hosehead-fake-trigger (function int none))
+
+;; DECOMP BEGINS
+

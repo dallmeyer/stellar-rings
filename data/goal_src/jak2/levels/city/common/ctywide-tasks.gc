@@ -1,0 +1,8 @@
+;;-*-Lisp-*-
+(in-package goal)
+
+;; name: ctywide-tasks.gc
+;; name in dgo: ctywide-tasks
+;; dgos: CWI
+
+;; DECOMP BEGINS

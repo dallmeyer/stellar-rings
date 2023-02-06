@@ -1,0 +1,9 @@
+;;-*-Lisp-*-
+(in-package goal)
+
+;; name: jinx-states.gc
+;; name in dgo: jinx-states
+;; dgos: SEB, SWB, UNB
+
+;; DECOMP BEGINS
+

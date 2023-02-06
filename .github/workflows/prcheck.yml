@@ -1,0 +1,13 @@
+name: PR Notice
+on: pull_request_target
+
+jobs:
+  thank_contributor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v1
+        with:
+          message: |
+                        Ayo @${{ github.event.pull_request.user.login }}, you created this against **opengoal-mod-base** - did you mean to create it against a fork?
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

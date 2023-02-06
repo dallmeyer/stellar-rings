@@ -1,0 +1,17 @@
+;;-*-Lisp-*-
+(in-package goal)
+
+;; name: citizen-fat.gc
+;; name in dgo: citizen-fat
+;; dgos: CWI
+
+;; DECOMP BEGINS
+
+(deftype citizen-fat (civilian)
+  ()
+  :method-count-assert 218
+  :size-assert         #x424
+  :flag-assert         #xda03b00424
+  (:methods
+    )
+  )
